@@ -78,9 +78,6 @@ This repository contains tools and scripts for:
 
 ### Installation
 
-1. **Clone the repository:**
-   
-
 2. **Install required R packages**
-   install.packages(c('ggplot2', 'dplyr', 'car', 'MASS', 'psych', 'caret', 'nortest', 'multcomp', 'DescTools', 'ggpubr'))
+   - install.packages(c('ggplot2', 'dplyr', 'car', 'MASS', 'psych', 'caret', 'nortest', 'multcomp', 'DescTools', 'ggpubr'))
 
