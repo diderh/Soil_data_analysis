@@ -79,12 +79,8 @@ This repository contains tools and scripts for:
 ### Installation
 
 1. **Clone the repository:**
-   ```sh
-   git clone https://github.com/diderh/Soil_data_analysis.git
-   cd Soil_data_analysis
+   
 
 2. **Install required R packages**
    install.packages(c('ggplot2', 'dplyr', 'car', 'MASS', 'psych', 'caret', 'nortest', 'multcomp', 'DescTools', 'ggpubr'))
-
-
 
