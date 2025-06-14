@@ -40,29 +40,6 @@ This script is a comprehensive workflow for analyzing soil microbial biomass and
 
 
 
-Schema Diagram
-
-+---------------------+            +-------------------------+
-|  CombinedTreatment  |            |     BiomassVariables    |
-+---------------------+            +-------------------------+
-| id (PK)             |<---------+ | id (PK)                 |
-| Combined_Treatments |          | | Combined_Treatments     |
-| Cmic_mg_kg          |          | | Cmic_mg_kg              |
-| Nmic_ug_g_soil      |          | | Nmic_ug_g_soil          |
-+---------------------+          | | C_N_ratio               |
-                                  | | Ctot_percent            |
-                                  | | Ntot_percent            |
-                                  | | Humus_percent           |
-                                  | | CEC_mmolc_kg            |
-                                  | | pH_CaCl2                |
-                                  | | Clay_content_percent    |
-                                  | +-------------------------+
-                                  |
-                                  +----------------------------+
-                                  (Combined_Treatments is a FK,
-                                   referencing treatment names in
-                                   CombinedTreatment table)
-
 
 
 
