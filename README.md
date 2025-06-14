@@ -41,32 +41,32 @@ This repository contains tools and scripts for:
 
 ## Workflow Steps
 
-1. Data Loading and Preparation
+1. **Data Loading and Preparation**
 
 - Load necessary libraries.
 - Read CSV files and set working directory.
 
-2. Normality Checks & Data Transformation
+2. **Normality Checks & Data Transformation**
 
 - Check Cmic and Nmic distributions (density plots, Shapiro-Wilk).
 - Compare mean/median, apply transformations (square root, log, Box-Cox).
 
-3. Visualization
+3. **Visualization**
 
 - Generate Q-Q plots and boxplots for visual inspection.
 - Annotate plots for clarity.
 
-4. Statistical Testing
+4. **Statistical Testing**
 
 - Perform ANOVA and Tukey HSD post-hoc tests for treatment differences.
 
-5. Multiple Linear Regression
+5. **Multiple Linear Regression**
 
 - Subset numeric explanatory variables (C/N ratio, Ctot, Ntot, humus, CEC, pH, clay).
 - Impute missing values, split data, fit regression models.
 - Check model fit (R²) and multicollinearity (VIF).
 
-6. Further Statistical Analysis
+6. **Further Statistical Analysis**
 
 - Analyze treatment effects on explanatory variables.
 - Use normality tests, Bartlett’s test, ANOVA, Kruskal-Wallis, Dunn’s test as appropriate.
