@@ -40,7 +40,51 @@ This script is a comprehensive workflow for analyzing soil microbial biomass and
 
 
 
+# Soil Data Analysis: Microbial Carbon and Nitrogen in Soil
 
+This project provides an R script for comprehensive statistical analysis of soil chemistry data, focusing on microbial carbon (Cmic) and nitrogen (Nmic) contents under different treatments. The workflow includes data cleaning, transformation, exploratory analysis, visualization, and advanced statistical modeling to uncover key insights into soil microbial biomass and its chemical properties.
+
+---
+
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Getting Started](#getting-started)
+- [Workflow Steps](#workflow-steps)
+- [Outputs](#outputs)
+- [Citation](#citation)
+- [License](#license)
+- [Contributing](#contributing)
+
+---
+
+## Project Overview
+
+This repository contains tools and scripts for:
+- Analyzing microbial carbon and nitrogen in soil samples.
+- Testing for normality and transforming data distributions.
+- Visualizing distributions and treatment effects.
+- Performing ANOVA, post-hoc, and regression analyses to understand the relationship between soil properties and microbial content.
+
+---
+
+## Getting Started
+
+### Prerequisites
+
+- R (version >= 4.0 recommended)
+- R packages: `ggplot2`, `dplyr`, `car`, `MASS`, `psych`, `caret`, `nortest`, `multcomp`, `DescTools`, `ggpubr`
+- Soil chemistry data in CSV format
+
+### Installation
+
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/diderh/Soil_data_analysis.git
+   cd Soil_data_analysis
+
+2. **Install required R packages**
+   install.packages(c('ggplot2', 'dplyr', 'car', 'MASS', 'psych', 'caret', 'nortest', 'multcomp', 'DescTools', 'ggpubr'))
 
 
 
