@@ -40,7 +40,8 @@ This script is a comprehensive workflow for analyzing soil microbial biomass and
 
 
 
-Schema Diagram:
+Schema Diagram
+
 +---------------------+            +-------------------------+
 |  CombinedTreatment  |            |     BiomassVariables    |
 +---------------------+            +-------------------------+
